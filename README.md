@@ -18,17 +18,11 @@ following way:
                 reason,
                 annotator_politics,
                 annotator_media_time
-            },
-            .
-            .
-            .
+            }, ...
         ],
         image_responses: [...]
         textimage_responses: [...]
-    },
-    .
-    .
-    .
+    }, ...
 }
 ```
 
@@ -66,15 +60,9 @@ It is structured in the following way:
                     reason,
                     annotator_politics,
                     annotator_media_time
-                },
-                .
-                .
-                .
+                }, ...
             ]
-        },
-        .
-        .
-        .
+        }, ...
     },
     image-only: {
         image url: {
@@ -86,15 +74,9 @@ It is structured in the following way:
                     reason,
                     annotator_politics,
                     annotator_media_time
-                },
-                .
-                .
-                .
+                }, ...
             ]
-        },
-        .
-        .
-        .
+        }, ...
     },
     text_image: {
         news headline: {
@@ -107,15 +89,9 @@ It is structured in the following way:
                     reason,
                     annotator_politics,
                     annotator_media_time
-                },
-                .
-                .
-                .
+                }, ...
             ]
-        },
-        .
-        .
-        .
+        }, ...
     },
 }
 ```
