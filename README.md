@@ -50,3 +50,75 @@ where
 ### data_1.json
 Each news sample has at least 1 annotations for all three experiment
 types (Text only, Image only, Text + Image).
+
+### data_all.json
+All annotation data including news sample that has annotation for only 1 or 2 experiment types.
+It is structured in the following way:
+```
+{
+    text-only: {
+        news headline: {
+            responses: [
+                {
+                    emotion,
+                    intensity,
+                    feeling,
+                    reason,
+                    annotator_politics,
+                    annotator_media_time
+                },
+                .
+                .
+                .
+            ]
+        },
+        .
+        .
+        .
+    },
+    image-only: {
+        image url: {
+            responses: [
+                {
+                    emotion,
+                    intensity,
+                    feeling,
+                    reason,
+                    annotator_politics,
+                    annotator_media_time
+                },
+                .
+                .
+                .
+            ]
+        },
+        .
+        .
+        .
+    },
+    text_image: {
+        news headline: {
+            url
+            responses: [
+                {
+                    emotion,
+                    intensity,
+                    feeling,
+                    reason,
+                    annotator_politics,
+                    annotator_media_time
+                },
+                .
+                .
+                .
+            ]
+        },
+        .
+        .
+        .
+    },
+}
+```
+
+where 
+* `text-only`, `image-only`, `text_image` correspond to the three experiment types
