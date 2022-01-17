@@ -46,3 +46,7 @@ where
   Same structure as `text_responses`. Has at least 10 items.
 * `textimage_responses` is the annotations for Text + Image experiment type. 
   Same structure as `text_responses`. Has at least 10 items.
+  
+### data_1.json
+Each news sample has at least 1 annotations for all three experiment
+types (Text only, Image only, Text + Image).
