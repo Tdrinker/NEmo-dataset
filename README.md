@@ -1,4 +1,9 @@
 # NEmo: An Affective Dataset of Gun Violence News
+**Carley Reardon, Sejin Paik, Ge Gao, Meet Parekh, Yangling Zhao, Lei Guo, Margrit Betke, Derry Wijaya**
+
+Boston University
+
+{reardonc, sejin, ggao02, meet09, lingzhao, guolei, betke, wijaya}@bu.edu
 
 ## Abstract
 Given our society’s increased exposure to multimedia formats on social media platforms, efforts to understand how digital content impacts people’s emotions are burgeoning. As such, we introduce a U.S. gun violence news dataset that contains news headline and image pairings from 840 news articles with 15K high-quality, crowdsourced annotations on emotional responses to the news pairings. We created three experimental conditions for the annotation process: two with a single modality (headline or image only), and one multimodal (headline and image together). In contrast to prior works on affectively-annotated data, our dataset includes annotations on the dominant emotion experienced with the content, the intensity of the selected emotion and an open-ended, written component. By collecting annotations on different modalities of the same news content pairings, we explore the relationship between image and text influence on human emotional response. We offer initial analysis on our dataset, showing the nuanced affective differences that appear due to modality and individual factors such as political leaning and media consumption habits. Our dataset is made publicly available to facilitate future research in affective computing.
