@@ -132,3 +132,7 @@ It is structured in the following way:
 where 
 * `text-only`, `image-only`, `text_image` correspond to the three experimental conditions. The corresponding news set can be identified either by the `news headline` key, or by the `image url` key, which corresponds to the image id in GVFC in the same way as `url` described above.
 * all other variables are the same as in data_10.json and data_1.json
+
+## Acknowledgement
+This material is based upon work partially supported by the National Science Foundation under Grant No. 1838193. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
+
